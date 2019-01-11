@@ -1,0 +1,9 @@
+User-agent: *
+
+Disallow: /img/
+
+Disallow: /css/
+
+Sitemap: /sitemap.xml
+
+ErrorDocument 404 /index.html

@@ -1,0 +1,84 @@
+.header  {
+	margin: 7px;
+	text-align: left;
+}
+
+.main  {
+	float: left;
+	text-align: left;
+	margin: 7px;
+	width: 700px;
+}
+
+.side {
+	border-color: black;
+	border-style: none none none dashed;
+	border-width: 0 0 0 1px;
+	float: right;
+	margin-left: 5px;
+	margin-top: 7px;
+	padding-left: 10px;
+	text-align: left;
+	width: 170px;
+}
+
+.impressum {
+	margin-bottom: 10px;
+	font-weight:bold;
+}
+
+.imgCL {
+	width: 150px;
+	height: 150px;
+	border: 0px;
+}
+
+.tdCLleft {
+	width: 150px;
+}
+
+.trCL {
+	border-bottom: 1px solid #000000;
+}
+
+.buy {
+	float: right;
+}
+
+.order_error {
+	color: #FF0000;
+}
+
+body {
+	width: 900px;
+	text-align: center;
+	margin: 0px auto;
+	font-family: Arial,Helmet,Freesans,sans-serif;
+	font-size: 12px;
+}
+
+td {
+	vertical-align: top;
+}
+
+tr {
+	page-break-inside:avoid;
+	page-break-after:auto;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #000000;
+	text-decoration: underline;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial,Helmet,Freesans,sans-serif;
+    font-weight: normal;
+    text-shadow: 1px 1px 2px #C0C0C0;
+} 
